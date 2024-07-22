@@ -1,0 +1,99 @@
+/* style.css */
+
+
+/* Establece un fondo sólido */
+body {
+    background-color: #3835fd; /* Cambiado a un color sólido */
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* Estilo del encabezado */
+.topbar {
+    background-color: transparent;
+    color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.topbar-inner__signin {
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ffde25; /* Cambiado a un color sólido */
+    border-radius: 10px;
+}
+
+
+.topbar-inner__signin:hover {
+    color: #000;
+    background-color: #4fc3f7; /* Cambiado a un color sólido */
+}
+
+
+/* Estilo para el contenido principal */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1, h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+
+h2 {
+    font-size: 2.3em;
+    color: #e8f9fc;
+    margin-bottom: 1em;
+}
+
+
+p {
+    color: #616161;
+    font-size: 1.2em;
+    max-width: 600px;
+    margin-bottom: 2em;
+}
+
+
+/* Estilo para los botones */
+.button {
+    background-color: #e92fca; /* Cambiado a un color sólido */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 10px;
+}
+
+
+.button:hover {
+    background-color: #4fc3f7; /* Cambiado a un color sólido */
+}
+
+
